@@ -1,19 +1,40 @@
 {
   "name": "react-advance-hooks",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "The ultimate package for React developers, offering a powerful collection of hooks to enhance their development experience.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shivajisurwase/react-advance-hooks.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "hooks",
+    "custom hooks",
+    "custom",
+    "reusable"
+  ],
+  "author": "Shviaji & Shyamal",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shivajisurwase/react-advance-hooks/issues"
   },
-  "homepage": "https://github.com/shivajisurwase/react-advance-hooks#readme"
+  "homepage": "https://github.com/shivajisurwase/react-advance-hooks#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "tslib": "^2.6.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "react": "^18.2.0"
+  }
 }
