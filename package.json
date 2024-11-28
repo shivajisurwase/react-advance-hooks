@@ -1,6 +1,6 @@
 {
   "name": "react-advance-hooks",
-  "version": "1.0.1",
+  "version": "2.0.2",
   "description": "The ultimate package for React developers, offering a powerful collection of hooks to enhance their development experience.",
   "main": "dist/index.js",
   "module": "dist/index.js",
